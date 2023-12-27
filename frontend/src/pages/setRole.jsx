@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../stylesheets/auth.css'; // Your custom styles
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import '../stylesheets/SetRoleForm.css';
+import '../stylesheets/setRoleForm.css';
 import { useCustomization } from "../contexts/CustomizationContext";
 
 const backend_url = "http://localhost:3000/api/v1";
