@@ -5,7 +5,7 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
+build: {
     outDir: resolve(__dirname, "build"), // Specify the output directory as 'build'
   },
 });
