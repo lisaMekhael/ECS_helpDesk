@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Router, Routes } from "react-router-dom";
 import WelcomePage from "./pages/WelcomePage";
 import Login from "./pages/login";
@@ -24,8 +23,6 @@ import TicketDetailsPage from "./pages/TicketDetailsPage";
 import { CustomizationProvider } from "./contexts/CustomizationContext";
 import Customize from "./pages/Customize.jsx";
 
-import "./stylesheets/bootstrap.min.css";
-import "./bootstrap.min.js"; // Adjust the path accordingly
 
 import Chat from "./pages/chat";
 import AccessChat from "./pages/accessChat";

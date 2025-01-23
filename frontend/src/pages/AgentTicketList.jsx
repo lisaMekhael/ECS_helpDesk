@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useNavigate } from 'react-router-dom';
 import AppNavBarAdmin from '../components/navBarAdmin';
 import { useCustomization } from "../contexts/CustomizationContext";

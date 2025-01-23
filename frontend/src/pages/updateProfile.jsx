@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AppNavBarUser from '../components/navbarUser';
 import AppNavBarAdmin from '../components/navBarAdmin';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useCustomization } from "../contexts/CustomizationContext";
 
 const userId = localStorage.getItem("userId");
