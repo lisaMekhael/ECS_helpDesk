@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../stylesheets/auth.css"; // Your custom styles
 import React, { useState, useEffect } from "react";
 import axios from "axios";

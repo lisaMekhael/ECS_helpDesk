@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import AppNavBarAdmin from '../components/navBarAdmin';
 
 import React, { useState, useEffect } from 'react';
